@@ -102,7 +102,7 @@ local function serverHop()
 			QueueOnTeleport = queue_on_teleport or queueonteleport or syn and syn.queue_on_teleport
 			if QueueOnTeleport then
 				QueueOnTeleport([[ 
-					loadstring(game:HttpGet("https://raw.githubusercontent.com/CHIZOMEBLADE/X/main/egg_finder_script.lua"))()
+					loadstring(game:HttpGet("https://raw.githubusercontent.com/CHIZOMEBLADE/X/main/rift.lua"))()
 				]])
 			end
 
